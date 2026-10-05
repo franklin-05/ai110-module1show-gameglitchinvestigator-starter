@@ -12,10 +12,10 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 Document at least 3 bugs you found. Add rows as needed.
 
-| Input | Expected Behavior | Actual Behavior | Console Output / Error |
+| Input | Expected Behavior | Actual Behavior | Console Output / Error | Suspected Location
 |-------|-------------------|-----------------|------------------------|
-| | | | |
-| | | | |
+|23| | | | Go higher.        Go lower           none.                   App.py
+|0 | | | | Number is out of boung go lower      none                    App.py/ 'parse.guess()'
 | | | | |
 
 ---
