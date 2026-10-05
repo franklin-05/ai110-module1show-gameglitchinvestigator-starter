@@ -25,19 +25,18 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
-
+- On this game you have to guess an number between 1 and 100 and you have a couple of attempts depeding on the level you are in.
+- I found a couple of bugs, among them was the hints were not taking place correctly, the input was not working accordingly as well as the logic behind the data type that the game was taking 
+- I have fixed the bugs mentioned in the reflection 
 ## 📸 Demo Walkthrough
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. Open the game in your browser using Streamlit, and check your difficulty setting in the sidebar.
+2. Type in a valid whole number. Make sure you aren't entering text, decimals, or numbers lower than 1 (like 0 or negative values).
+3. Click submit and watch the hints. They will correctly tell you whether to go higher or lower.
+4. Keep making guesses based on those hints until you find the secret number or run out of attempts.
+5. If you want to check what's happening behind the scenes, open the Developer Debug Info section to view the hidden secret number and your guess history.
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
